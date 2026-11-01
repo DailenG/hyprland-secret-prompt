@@ -1,0 +1,30 @@
+# Credential and environment artifacts are never repository content.
+.env
+.env.*
+*.env
+*.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+*.token
+credentials
+credentials.*
+.credentials
+.credentials.*
+secrets/
+.secrets/
+credentials/
+
+# Python bytecode, test caches, and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
